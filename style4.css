@@ -200,6 +200,10 @@ input {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Создаем 3 колонки одинаковой ширины */
     gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
 }
 
 .about{
